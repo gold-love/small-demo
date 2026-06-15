@@ -1,0 +1,92 @@
+const User = require('./User');
+const Expense = require('./Expense');
+const Budget = require('./Budget');
+const Organization = require('./Organization');
+const AuditLog = require('./AuditLog');
+const Notification = require('./Notification');
+const Project = require('./Project');
+const Vendor = require('./Vendor');
+const Asset = require('./Asset');
+const Session = require('./Session');
+const Feedback = require('./Feedback');
+const ApiKey = require('./ApiKey');
+const BankConnection = require('./BankConnection');
+
+// Define all relationships in one place to avoid circular dependencies
+
+// Organization relationships
+Organization.hasMany(User, { foreignKey: 'organizationId', onDelete: 'CASCADE' });
+User.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+Organization.hasMany(Expense, { foreignKey: 'organizationId' });
+Expense.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+Organization.hasMany(Project, { foreignKey: 'organizationId' });
+Project.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+Organization.hasMany(Vendor, { foreignKey: 'organizationId' });
+Vendor.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+Organization.hasMany(Asset, { foreignKey: 'organizationId' });
+Asset.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+// User relationships
+User.hasMany(Expense, { foreignKey: 'userId', onDelete: 'CASCADE' });
+Expense.belongsTo(User, { foreignKey: 'userId' });
+
+User.hasMany(Budget, { foreignKey: 'userId', onDelete: 'CASCADE' });
+Budget.belongsTo(User, { foreignKey: 'userId' });
+
+User.hasMany(Session, { foreignKey: 'userId', onDelete: 'CASCADE' });
+Session.belongsTo(User, { foreignKey: 'userId' });
+
+User.hasMany(Asset, { foreignKey: 'assignedTo' });
+Asset.belongsTo(User, { foreignKey: 'assignedTo' });
+
+User.hasMany(Feedback, { foreignKey: 'userId', onDelete: 'SET NULL' });
+Feedback.belongsTo(User, { foreignKey: 'userId' });
+
+User.hasMany(BankConnection, { foreignKey: 'userId', onDelete: 'CASCADE' });
+BankConnection.belongsTo(User, { foreignKey: 'userId' });
+
+// Multi-level approval (User reports to Manager)
+User.belongsTo(User, { as: 'Manager', foreignKey: 'managerId' });
+
+// Expense relationships
+Project.hasMany(Expense, { foreignKey: 'projectId' });
+Expense.belongsTo(Project, { foreignKey: 'projectId' });
+
+Vendor.hasMany(Expense, { foreignKey: 'vendorId' });
+Expense.belongsTo(Vendor, { foreignKey: 'vendorId' });
+
+// Audit relationships
+User.hasMany(AuditLog, { foreignKey: 'userId' });
+AuditLog.belongsTo(User, { foreignKey: 'userId' });
+Organization.hasMany(AuditLog, { foreignKey: 'organizationId' });
+AuditLog.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+// Notification relationships
+User.hasMany(Notification, { foreignKey: 'userId', onDelete: 'CASCADE' });
+Notification.belongsTo(User, { foreignKey: 'userId' });
+
+// API Key relationships
+User.hasMany(ApiKey, { foreignKey: 'userId', onDelete: 'CASCADE' });
+ApiKey.belongsTo(User, { foreignKey: 'userId' });
+Organization.hasMany(ApiKey, { foreignKey: 'organizationId' });
+ApiKey.belongsTo(Organization, { foreignKey: 'organizationId' });
+
+module.exports = {
+    User,
+    Expense,
+    Budget,
+    Organization,
+    AuditLog,
+    Notification,
+    Project,
+    Vendor,
+    Asset,
+    Session,
+    Feedback,
+    ApiKey,
+    BankConnection
+};
