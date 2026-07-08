@@ -2,7 +2,7 @@ const { Notification } = require('../models');
 
 // @desc    Get user notifications
 // @route   GET /api/notifications
-// @access  Private
+// @access  Private 
 const getNotifications = async (req, res) => {
     try {
         const notifications = await Notification.findAll({
