@@ -4,7 +4,13 @@ import api from '../services/api';
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-    const [user, setUser] = useState(null);
+    const [user, setUser] = useState({
+        id: 1,
+        name: 'Admin User',
+        email: 'admin@finsight.com',
+        role: 'admin',
+        token: 'sample-admin-token'
+    });
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -12,6 +18,17 @@ export const AuthProvider = ({ children }) => {
             const storedUser = localStorage.getItem('user');
             if (storedUser && storedUser !== 'undefined') {
                 setUser(JSON.parse(storedUser));
+            } else {
+                // Default to admin for the sample
+                const defaultAdmin = {
+                    id: 1,
+                    name: 'Admin User',
+                    email: 'admin@finsight.com',
+                    role: 'admin',
+                    token: 'sample-admin-token'
+                };
+                setUser(defaultAdmin);
+                localStorage.setItem('user', JSON.stringify(defaultAdmin));
             }
         } catch (error) {
             console.error("Failed to parse stored user:", error);

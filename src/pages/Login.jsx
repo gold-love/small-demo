@@ -95,7 +95,7 @@ const Login = () => {
                     {requires2FA ? 'Identity Verification' : (isLogin ? 'Welcome Back' : 'Create Account')}
                 </h2>
 
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} autoComplete="off">
                     {requires2FA ? (
                         <div className="form-group fade-in">
                             <h3 style={{ marginBottom: '16px', fontSize: '1.2rem', textAlign: 'center' }}>🛡️ Scan to Verify</h3>
@@ -124,6 +124,7 @@ const Login = () => {
                                             required
                                             maxLength={6}
                                             autoFocus
+                                            autoComplete="off"
                                         />
                                     </>
                                 )}
@@ -164,6 +165,7 @@ const Login = () => {
                                         className="form-control"
                                         placeholder="John Doe"
                                         required
+                                        autoComplete="off"
                                     />
                                 </div>
                             )}
@@ -176,6 +178,7 @@ const Login = () => {
                                     className="form-control"
                                     placeholder="you@example.com"
                                     required
+                                    autoComplete="off"
                                 />
                             </div>
                             <div className="form-group">
@@ -189,6 +192,7 @@ const Login = () => {
                                         placeholder="••••••••"
                                         required
                                         minLength={6}
+                                        autoComplete="new-password"
                                     />
                                     <button
                                         type="button"
