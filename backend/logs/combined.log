@@ -5,3 +5,129 @@
 {"level":"info","message":"Running daily check for recurring expenses...","service":"finsight-backend","timestamp":"2026-07-08 11:04:24"}
 {"level":"info","message":"Server running in development mode on port 5000","service":"finsight-backend","timestamp":"2026-07-08 11:04:25"}
 {"level":"info","message":"Created recurring expense: bjnj for user 18897f83-d302-4fa3-baa1-c7dd466d635e","service":"finsight-backend","timestamp":"2026-07-08 11:04:29"}
+{"level":"info","message":"Recurring expense scheduler initialized","service":"finsight-backend","timestamp":"2026-07-18 12:12:58"}
+{"level":"info","message":"Running daily check for recurring expenses...","service":"finsight-backend","timestamp":"2026-07-18 12:12:58"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"finsight-backend","timestamp":"2026-07-18 12:13:01"}
+{"level":"info","message":"POST /api/auth/login 200 - 284ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/notifications 304 - 49ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 55ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/reports/category?timeRange=all 200 - 81ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/notifications 304 - 58ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 55ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/reports/category?timeRange=all 304 - 50ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/reports/monthly?timeRange=all 200 - 47ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"error","message":"Not Found - /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png 404 - 5ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/budgets 200 - 18ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:32"}
+{"level":"info","message":"GET /api/reports/monthly?timeRange=all 304 - 181ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:33"}
+{"level":"info","message":"GET /api/budgets 304 - 12ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:33"}
+{"level":"info","message":"GET /api/expenses?limit=5&timeRange=all 200 - 268ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:33"}
+{"level":"info","message":"GET /api/expenses?limit=5&timeRange=all 304 - 137ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:33"}
+{"level":"info","message":"GET /api/reports/admin-summary?timeRange=all 200 - 138ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:33"}
+{"level":"info","message":"GET /api/reports/admin-summary?timeRange=all 304 - 25ms","service":"finsight-backend","timestamp":"2026-07-18 12:24:33"}
+{"level":"error","message":"Not Found - /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 12:25:30"}
+{"level":"info","message":"GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png 404 - 1ms","service":"finsight-backend","timestamp":"2026-07-18 12:25:30"}
+{"level":"info","message":"GET /api/notifications 304 - 259ms","service":"finsight-backend","timestamp":"2026-07-18 12:25:32"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 264ms","service":"finsight-backend","timestamp":"2026-07-18 12:25:32"}
+{"level":"info","message":"POST /api/auth/profile-picture 500 - 30ms","service":"finsight-backend","timestamp":"2026-07-18 12:25:39"}
+{"level":"info","message":"POST /api/auth/profile-picture 500 - 15ms","service":"finsight-backend","timestamp":"2026-07-18 12:25:50"}
+{"level":"info","message":"GET /api/notifications 304 - 199ms","service":"finsight-backend","timestamp":"2026-07-18 12:26:32"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 325ms","service":"finsight-backend","timestamp":"2026-07-18 12:26:33"}
+{"level":"info","message":"GET /api/enterprise/vendors 200 - 17ms","service":"finsight-backend","timestamp":"2026-07-18 12:26:37"}
+{"level":"info","message":"GET /api/enterprise/vendors 304 - 16ms","service":"finsight-backend","timestamp":"2026-07-18 12:26:37"}
+{"level":"info","message":"GET /api/enterprise/projects 200 - 187ms","service":"finsight-backend","timestamp":"2026-07-18 12:26:37"}
+{"level":"info","message":"GET /api/enterprise/projects 304 - 43ms","service":"finsight-backend","timestamp":"2026-07-18 12:26:37"}
+{"level":"info","message":"GET /api/notifications 304 - 205ms","service":"finsight-backend","timestamp":"2026-07-18 12:27:32"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 211ms","service":"finsight-backend","timestamp":"2026-07-18 12:27:32"}
+{"level":"info","message":"GET /api/notifications 304 - 212ms","service":"finsight-backend","timestamp":"2026-07-18 12:28:33"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 208ms","service":"finsight-backend","timestamp":"2026-07-18 12:28:33"}
+{"level":"info","message":"GET /api/notifications 304 - 216ms","service":"finsight-backend","timestamp":"2026-07-18 12:29:33"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 215ms","service":"finsight-backend","timestamp":"2026-07-18 12:29:33"}
+{"level":"info","message":"GET /api/notifications 304 - 212ms","service":"finsight-backend","timestamp":"2026-07-18 12:30:33"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 221ms","service":"finsight-backend","timestamp":"2026-07-18 12:30:33"}
+{"level":"info","message":"GET /api/notifications 304 - 190ms","service":"finsight-backend","timestamp":"2026-07-18 12:32:15"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 189ms","service":"finsight-backend","timestamp":"2026-07-18 12:32:15"}
+{"level":"info","message":"GET /api/notifications 304 - 213ms","service":"finsight-backend","timestamp":"2026-07-18 12:33:16"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 337ms","service":"finsight-backend","timestamp":"2026-07-18 12:33:16"}
+{"level":"info","message":"GET /api/notifications 304 - 187ms","service":"finsight-backend","timestamp":"2026-07-18 12:34:17"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 188ms","service":"finsight-backend","timestamp":"2026-07-18 12:34:17"}
+{"level":"info","message":"GET /api/notifications 304 - 182ms","service":"finsight-backend","timestamp":"2026-07-18 12:35:18"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 189ms","service":"finsight-backend","timestamp":"2026-07-18 12:35:18"}
+{"level":"info","message":"GET /api/notifications 304 - 285ms","service":"finsight-backend","timestamp":"2026-07-18 12:36:19"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 284ms","service":"finsight-backend","timestamp":"2026-07-18 12:36:19"}
+{"level":"info","message":"GET /api/notifications 304 - 240ms","service":"finsight-backend","timestamp":"2026-07-18 12:37:20"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 374ms","service":"finsight-backend","timestamp":"2026-07-18 12:37:20"}
+{"level":"info","message":"GET /api/notifications 304 - 269ms","service":"finsight-backend","timestamp":"2026-07-18 12:38:21"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 278ms","service":"finsight-backend","timestamp":"2026-07-18 12:38:21"}
+{"level":"info","message":"GET /api/notifications 304 - 271ms","service":"finsight-backend","timestamp":"2026-07-18 12:38:56"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 272ms","service":"finsight-backend","timestamp":"2026-07-18 12:38:56"}
+{"level":"info","message":"GET /api/expenses?page=1&limit=15&search=&scope=company&status=&category=&dateFrom=&dateTo=&sortBy=date&sortOrder=DESC 200 - 5985ms","service":"finsight-backend","timestamp":"2026-07-18 12:39:16"}
+{"level":"info","message":"GET /api/expenses?page=1&limit=15&search=&scope=company&status=&category=&dateFrom=&dateTo=&sortBy=date&sortOrder=DESC 304 - 6777ms","service":"finsight-backend","timestamp":"2026-07-18 12:39:23"}
+{"level":"info","message":"GET /api/expenses?page=1&limit=15&search=&scope=company&status=&category=&dateFrom=&dateTo=&sortBy=date&sortOrder=DESC 304 - 63ms","service":"finsight-backend","timestamp":"2026-07-18 12:39:23"}
+{"level":"info","message":"GET /api/expenses?page=1&limit=15&search=&scope=company&status=&category=&dateFrom=&dateTo=&sortBy=date&sortOrder=DESC 304 - 22ms","service":"finsight-backend","timestamp":"2026-07-18 12:39:23"}
+{"level":"info","message":"GET /api/notifications 304 - 4097ms","service":"finsight-backend","timestamp":"2026-07-18 12:39:36"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 4123ms","service":"finsight-backend","timestamp":"2026-07-18 12:39:36"}
+{"level":"info","message":"Recurring expense scheduler initialized","service":"finsight-backend","timestamp":"2026-07-18 14:03:22"}
+{"level":"info","message":"Running daily check for recurring expenses...","service":"finsight-backend","timestamp":"2026-07-18 14:03:22"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"finsight-backend","timestamp":"2026-07-18 14:03:26"}
+{"level":"info","message":"Recurring expense scheduler initialized","service":"finsight-backend","timestamp":"2026-07-18 14:18:58"}
+{"level":"info","message":"Running daily check for recurring expenses...","service":"finsight-backend","timestamp":"2026-07-18 14:18:59"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"finsight-backend","timestamp":"2026-07-18 14:19:00"}
+{"level":"info","message":"GET /api/notifications 401 - 12ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:48"}
+{"level":"info","message":"GET /api/notifications/unread-count 401 - 3ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:48"}
+{"level":"info","message":"GET /api/reports/category?timeRange=all 401 - 2ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:48"}
+{"level":"info","message":"GET /api/notifications 401 - 3ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:49"}
+{"level":"info","message":"GET /api/notifications/unread-count 401 - 2ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:49"}
+{"level":"info","message":"GET /api/reports/category?timeRange=all 401 - 2ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:49"}
+{"level":"info","message":"GET / 200 - 2ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:49"}
+{"level":"error","message":"Not Found - /favicon.ico - GET /favicon.ico - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:20:49"}
+{"level":"info","message":"GET /favicon.ico 404 - 7ms","service":"finsight-backend","timestamp":"2026-07-18 14:20:49"}
+{"level":"info","message":"POST /api/auth/login 200 - 58804ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:17"}
+{"level":"info","message":"GET /api/notifications 200 - 250ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:17"}
+{"level":"error","message":"Not Found - /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:22:17"}
+{"level":"info","message":"GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png 404 - 7ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:17"}
+{"level":"info","message":"GET /api/notifications/unread-count 200 - 394ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:17"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 128ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:17"}
+{"level":"info","message":"GET /api/notifications 304 - 525ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/reports/category?timeRange=all 200 - 979ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/reports/category?timeRange=all 304 - 147ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/reports/monthly?timeRange=all 200 - 303ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/reports/monthly?timeRange=all 304 - 71ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/budgets 200 - 130ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/budgets 304 - 57ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:18"}
+{"level":"info","message":"GET /api/expenses?limit=5&timeRange=all 200 - 4671ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:23"}
+{"level":"info","message":"GET /api/expenses?limit=5&timeRange=all 304 - 329ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:23"}
+{"level":"info","message":"GET /api/reports/admin-summary?timeRange=all 200 - 963ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:24"}
+{"level":"info","message":"GET /api/reports/admin-summary?timeRange=all 304 - 89ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:24"}
+{"level":"error","message":"Not Found - /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:22:36"}
+{"level":"info","message":"GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png 404 - 7ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:36"}
+{"level":"info","message":"GET /api/settings/organization 200 - 687ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:43"}
+{"level":"info","message":"GET /api/settings/sessions 200 - 90ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:52"}
+{"level":"info","message":"GET /api/settings/security-logs 200 - 178ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:52"}
+{"level":"error","message":"Not Found - /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:22:57"}
+{"level":"info","message":"GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png 404 - 7ms","service":"finsight-backend","timestamp":"2026-07-18 14:22:57"}
+{"level":"info","message":"POST /api/auth/profile-picture 500 - 572ms","service":"finsight-backend","timestamp":"2026-07-18 14:23:07"}
+{"level":"info","message":"GET /api/notifications 304 - 88ms","service":"finsight-backend","timestamp":"2026-07-18 14:23:17"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 89ms","service":"finsight-backend","timestamp":"2026-07-18 14:23:17"}
+{"level":"info","message":"POST /api/auth/profile-picture 500 - 202ms","service":"finsight-backend","timestamp":"2026-07-18 14:23:17"}
+{"level":"info","message":"GET /api/notifications 304 - 528ms","service":"finsight-backend","timestamp":"2026-07-18 14:24:17"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 595ms","service":"finsight-backend","timestamp":"2026-07-18 14:24:17"}
+{"level":"info","message":"GET /api/notifications 304 - 6272ms","service":"finsight-backend","timestamp":"2026-07-18 14:25:24"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 6275ms","service":"finsight-backend","timestamp":"2026-07-18 14:25:24"}
+{"level":"info","message":"GET /api/settings/organization 304 - 5491ms","service":"finsight-backend","timestamp":"2026-07-18 14:25:43"}
+{"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Users\\HP\\Desktop\\combined\\expensive\\small-demo\\backend\\uploads\\org-logo-2db6e0c4-647b-48f1-b974-fe55d20b7516-1784373948527.png' - POST /api/settings/organization/logo - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:25:48"}
+{"level":"info","message":"POST /api/settings/organization/logo 500 - 33ms","service":"finsight-backend","timestamp":"2026-07-18 14:25:48"}
+{"level":"info","message":"GET /api/settings/api-keys 200 - 336ms","service":"finsight-backend","timestamp":"2026-07-18 14:25:54"}
+{"level":"info","message":"POST /api/settings/api-keys 201 - 459ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:12"}
+{"level":"info","message":"GET /api/settings/api-keys 200 - 20ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:12"}
+{"level":"info","message":"GET /api/notifications 304 - 68ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:17"}
+{"level":"info","message":"GET /api/notifications/unread-count 304 - 69ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:17"}
+{"level":"info","message":"PUT /api/settings/notifications 200 - 467ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:29"}
+{"level":"error","message":"Not Found - /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:26:33"}
+{"level":"info","message":"GET /uploads/profile-cd5ebbbe-e88a-4680-b9ac-0a04f38680f8-1784365049665.png 404 - 5ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:33"}
+{"level":"info","message":"GET /api/settings/organization 304 - 142ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:38"}
+{"level":"error","message":"ENOENT: no such file or directory, open 'C:\\Users\\HP\\Desktop\\combined\\expensive\\small-demo\\backend\\uploads\\org-logo-2db6e0c4-647b-48f1-b974-fe55d20b7516-1784374017006.png' - POST /api/settings/organization/logo - IP: 127.0.0.1","service":"finsight-backend","timestamp":"2026-07-18 14:26:57"}
+{"level":"info","message":"POST /api/settings/organization/logo 500 - 5468ms","service":"finsight-backend","timestamp":"2026-07-18 14:26:57"}
+{"level":"info","message":"Recurring expense scheduler initialized","service":"finsight-backend","timestamp":"2026-07-18 14:27:36"}
+{"level":"info","message":"Running daily check for recurring expenses...","service":"finsight-backend","timestamp":"2026-07-18 14:27:36"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"finsight-backend","timestamp":"2026-07-18 14:27:37"}
